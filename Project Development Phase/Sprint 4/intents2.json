@@ -1,0 +1,156 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": [""]
+        },
+        
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me bot.", "I'm bot!", "I'm bot."],
+         "context_set": [""]
+        },
+        
+        {"tag": "problem_solving",
+        "patterns": ["i need help","help me","tell me","i have some problem","problem","can you help me?"],
+        "responses": ["yes i can help you","tell me what can i do for you","what do you want me to do","how can i help you","what kind of help do you need","tell me"],
+        "context_set": [""]
+        },
+        {
+        	"tag":"jaundice",
+        	"patterns":["what are the foods for jaundice"],
+        	"responses":["whole cranberries, blueberries, and grapes,citrus fruits, especially lemons, limes, and grapefruits,avocados and olives"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"emotional problems",
+        	"patterns":["What foods is good for emotional health?"],
+        	"responses":["To boost your mental health, focus on eating plenty of fruits and vegetables along with foods rich in omega-3 fatty acids, such as salmon. Dark green leafy vegetables in particular are brain protective. Nuts, seeds and legumes, such as beans and lentils, are also excellent brain foods."],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"headache problems",
+        	"patterns":["what are the foods for headache problems"],
+        	"responses":["Foods rich in magnesium include dark leafy greens, avocado, and tuna. Omega-3 fatty acids. Research indicates that increasing omega-3 fatty acids may help people with migraine. Foods rich in omega-3 fatty acids include fish such as mackerel and salmon"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"appendicitis",
+        	"patterns":["what are the foods for appendicitis"],
+        	"responses":["Oats or wheat gram over breakfast cereals,Whole wheat flour instead of all-purpose flour"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"anal cancer",
+        	"patterns":["what are the foods for anal cancer"],
+        	"responses":["Lean meats such as chicken, fish, or turkey."],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"allergy",
+        	"patterns":["what are the foods for allergy"],
+        	"responses":["milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, and soybeans"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"alcohol-related liver disease",
+        	"patterns":["what are the foods for alcohol-related liver disease?"],
+			"responses":["Avoiding salty foods and not adding salt to foods you eat can reduce your risk of developing swelling in your legs, feet and tummy caused by a build-up of fluid. Get tips for a lower salt diet. The damage to your liver can also mean it's unable to store glycogen, a carbohydrate that provides short-term energy."],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"bladder cancer",
+        	"patterns":["what are the foods for bladder cancer?"],
+        	"responses":["Intake of a diet with foods containing dietary carotenoids such as beta-cryptoxanthin, alpha/beta-carotene, lutein and zeaxanthin, Vitamin E, Selenium, yogurt, dried fruits, cruciferous vegetables such as broccoli, brussels sprouts, cabbage, cauliflower "],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diabetic retinopathy",
+        	"patterns":["what are the foods for diabetic retinopathy?"],
+        	"responses":["Nuts such as almonds, cashews, hazelnuts, pecans, walnuts and pistachios,Fatty fish and other seafood."],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diabetes",
+        	"patterns":["what are the foods for diabetes?"],
+        	"responses":["vegetables. nonstarchy: includes broccoli, carrots, greens, peppers, and tomatoes"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"diarrhoea",
+        	"patterns":["what are the best foods  for diarrhea?"],
+        	"responses":["bananas, rice (white), applesauce and toast. When your health is good, physicians usually recommend whole-grain, high-fiber"],
+        	"context_set":[""]
+
+        },
+	
+	
+	{
+        	"tag":"kidney cancer",
+        	"patterns":["what are the best foods  for kidney cancer?"],
+        	"responses":["Fruits and vegetables. Fruits and vegetables are high in fiber and a good source of many essential vitamins and minerals. ..."],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"fever",
+        	"patterns":["what are the best foods for a fever?"],
+        	"responses":["Chicken Soup. There are a couple of reasons why a bowl of piping hot chicken soup is good for you when you are running a fever."],
+        	"context_set":[""]
+
+        },
+	
+	{
+        	"tag":"COVID-19",
+        	"patterns":["what are the best foods for covid 19?"],
+        	"responses":["vegetables, fruit, pulses and wholegrain foods in all meals. Wholegrains foods include oats, brown pasta and rice, quinoa and whole-wheat bread and wraps, rather than refined grain foods such as white pasta and rice, and white bread."],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"common cold",
+        	"patterns":["a sore throat","a blocked or runny nose","sneezing","a cough","a hoarse voice","generally feeling unwell"],
+        	"responses":["you might be suffering from common cold"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"chickenpox",
+        	"patterns":["what are the best foods for chickenpox?"],
+        	"responses":["plain water,coconut water,herbal tea"],
+        	"context_set":[""]
+
+        },
+	{
+        	"tag":"stroke",
+        	"patterns":["what are the best foods for stroke?"],
+        	"responses":["Eggs can be beneficial to stroke survivors in two ways,Blueberries. Blueberries are high in polyphenols, an antioxidant that can protect the brain from stress"],
+        	"context_set":[""]
+
+        },
+        {
+            "tag":"asthma",
+            "patterns":["what are the best foods for asthma?"],
+            "responses":["Vitamin D-rich foods, such as milk and eggs,Beta carotene-rich vegetables, such as carrots and leafy greens"],
+            "context_set":[""]
+        },
+        {
+            "tag":"Dengue",
+            "patterns":["what are the best foods for Dengue?"],
+            "responses":["Papaya leaf juice. Papaya leaf juice is a quite famous remedy for dengue fever,Vegetable juices. Vegetables are rich in essential nutrients"],
+            "context_set":[""]
+        }
+		
+   ]
+}
